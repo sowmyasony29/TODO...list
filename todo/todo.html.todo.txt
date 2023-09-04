@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=0">
+      <link rel="stylesheet"href="todo.css">
+      <title>TODO LIST</title>
+   </head>
+   <body>
+      <div class="div1">
+        <h1>TODO list</h1>
+        <input type="text" id="inputtask" placeholder="Add a new task">
+        <button id="addTaskButton">Add</button>
+        <ul id="taskList"></ul>
+      </div>
+      <script src="todo.js"></script>
+   </body>
+</html>
